@@ -3,6 +3,7 @@ import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
+import 'package:collection/collection.dart';
 
 part 'generated_search_result_poll_result76.g.dart';
 
@@ -705,10 +706,5 @@ abstract class CardTags76 implements Built<CardTags76, CardTags76Builder> {
 
   static Serializer<CardTags76> get serializer => _$cardTags76Serializer;
 }
-
-@SerializersFor([
-  SearchResultPollResult76,
-])
-final Serializers serializers76 = _$serializers76;
 
   

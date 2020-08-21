@@ -6,46 +6,6 @@ part of 'generated_search_result_poll_result1.dart';
 // BuiltValueGenerator
 // **************************************************************************
 
-Serializers _$serializers1 = (new Serializers().toBuilder()
-      ..add(FilterGroups1.serializer)
-      ..add(Options1.serializer)
-      ..add(PackageLabelInfo1.serializer)
-      ..add(Packages1.serializer)
-      ..add(Price1.serializer)
-      ..add(SearchResultPollResult1.serializer)
-      ..add(Service1.serializer)
-      ..add(ShopMap1.serializer)
-      ..add(SupplierMap1.serializer)
-      ..add(VehicleCharacteristic1.serializer)
-      ..add(VehicleInfoList1.serializer)
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(Options1)]),
-          () => new ListBuilder<Options1>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(Packages1)]),
-          () => new ListBuilder<Packages1>())
-      ..addBuilderFactory(
-          const FullType(
-              BuiltList, const [const FullType(VehicleCharacteristic1)]),
-          () => new ListBuilder<VehicleCharacteristic1>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(String)]),
-          () => new ListBuilder<String>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(VehicleInfoList1)]),
-          () => new ListBuilder<VehicleInfoList1>())
-      ..addBuilderFactory(
-          const FullType(BuiltMap,
-              const [const FullType(String), const FullType(ShopMap1)]),
-          () => new MapBuilder<String, ShopMap1>())
-      ..addBuilderFactory(
-          const FullType(BuiltMap,
-              const [const FullType(String), const FullType(SupplierMap1)]),
-          () => new MapBuilder<String, SupplierMap1>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(FilterGroups1)]),
-          () => new ListBuilder<FilterGroups1>()))
-    .build();
 Serializer<SearchResultPollResult1> _$searchResultPollResult1Serializer =
     new _$SearchResultPollResult1Serializer();
 Serializer<VehicleInfoList1> _$vehicleInfoList1Serializer =

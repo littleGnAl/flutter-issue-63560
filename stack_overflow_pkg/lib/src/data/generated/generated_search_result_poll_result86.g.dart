@@ -6,46 +6,6 @@ part of 'generated_search_result_poll_result86.dart';
 // BuiltValueGenerator
 // **************************************************************************
 
-Serializers _$serializers86 = (new Serializers().toBuilder()
-      ..add(FilterGroups86.serializer)
-      ..add(Options86.serializer)
-      ..add(PackageLabelInfo86.serializer)
-      ..add(Packages86.serializer)
-      ..add(Price86.serializer)
-      ..add(SearchResultPollResult86.serializer)
-      ..add(Service86.serializer)
-      ..add(ShopMap86.serializer)
-      ..add(SupplierMap86.serializer)
-      ..add(VehicleCharacteristic86.serializer)
-      ..add(VehicleInfoList86.serializer)
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(Options86)]),
-          () => new ListBuilder<Options86>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(Packages86)]),
-          () => new ListBuilder<Packages86>())
-      ..addBuilderFactory(
-          const FullType(
-              BuiltList, const [const FullType(VehicleCharacteristic86)]),
-          () => new ListBuilder<VehicleCharacteristic86>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(String)]),
-          () => new ListBuilder<String>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(VehicleInfoList86)]),
-          () => new ListBuilder<VehicleInfoList86>())
-      ..addBuilderFactory(
-          const FullType(BuiltMap,
-              const [const FullType(String), const FullType(ShopMap86)]),
-          () => new MapBuilder<String, ShopMap86>())
-      ..addBuilderFactory(
-          const FullType(BuiltMap,
-              const [const FullType(String), const FullType(SupplierMap86)]),
-          () => new MapBuilder<String, SupplierMap86>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(FilterGroups86)]),
-          () => new ListBuilder<FilterGroups86>()))
-    .build();
 Serializer<SearchResultPollResult86> _$searchResultPollResult86Serializer =
     new _$SearchResultPollResult86Serializer();
 Serializer<VehicleInfoList86> _$vehicleInfoList86Serializer =

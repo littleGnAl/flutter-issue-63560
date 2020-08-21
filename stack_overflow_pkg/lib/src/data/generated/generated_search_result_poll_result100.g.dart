@@ -6,46 +6,6 @@ part of 'generated_search_result_poll_result100.dart';
 // BuiltValueGenerator
 // **************************************************************************
 
-Serializers _$serializers100 = (new Serializers().toBuilder()
-      ..add(FilterGroups100.serializer)
-      ..add(Options100.serializer)
-      ..add(PackageLabelInfo100.serializer)
-      ..add(Packages100.serializer)
-      ..add(Price100.serializer)
-      ..add(SearchResultPollResult100.serializer)
-      ..add(Service100.serializer)
-      ..add(ShopMap100.serializer)
-      ..add(SupplierMap100.serializer)
-      ..add(VehicleCharacteristic100.serializer)
-      ..add(VehicleInfoList100.serializer)
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(Options100)]),
-          () => new ListBuilder<Options100>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(Packages100)]),
-          () => new ListBuilder<Packages100>())
-      ..addBuilderFactory(
-          const FullType(
-              BuiltList, const [const FullType(VehicleCharacteristic100)]),
-          () => new ListBuilder<VehicleCharacteristic100>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(String)]),
-          () => new ListBuilder<String>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(VehicleInfoList100)]),
-          () => new ListBuilder<VehicleInfoList100>())
-      ..addBuilderFactory(
-          const FullType(BuiltMap,
-              const [const FullType(String), const FullType(ShopMap100)]),
-          () => new MapBuilder<String, ShopMap100>())
-      ..addBuilderFactory(
-          const FullType(BuiltMap,
-              const [const FullType(String), const FullType(SupplierMap100)]),
-          () => new MapBuilder<String, SupplierMap100>())
-      ..addBuilderFactory(
-          const FullType(BuiltList, const [const FullType(FilterGroups100)]),
-          () => new ListBuilder<FilterGroups100>()))
-    .build();
 Serializer<SearchResultPollResult100> _$searchResultPollResult100Serializer =
     new _$SearchResultPollResult100Serializer();
 Serializer<VehicleInfoList100> _$vehicleInfoList100Serializer =
